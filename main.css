@@ -1,0 +1,16 @@
+:root{
+    background-image: linear-gradient(to bottom,  rgba(245, 241, 241, 0.4),
+    rgba(245, 241, 241, 0.4)), url(wireframe-images/background-image.jpg);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media screen and (min-width: 200px){}
