@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+nav{
+    padding: 1%;
+    background-color: #aaa;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10; /*not sure about yet*/
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+    padding-left: 15px;
+}
+
+header{
+    padding: 8%;
+}
+
+h1{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+/*Smaller screens*/
+
+section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #bbb;
+  }
+  
+  section:nth-child(even) {
+    background-color: #ddd;
+  }
