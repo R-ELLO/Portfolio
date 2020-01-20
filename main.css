@@ -17,6 +17,10 @@ body{
     padding: 0;
 }
 
+header{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
 .navbar{
     background-color: rgba(32, 212, 143, 0.87);
     height: 40px;
@@ -40,6 +44,10 @@ p{
 }
 
 button:hover{
+    cursor: pointer;
+}
+
+a:hover{
     cursor: pointer;
 }
 
@@ -90,13 +98,60 @@ button:hover{
     }
 
     /*Projects section*/
+    .thumb-syms{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .thumbnail{
+        display: inline;
+    }
+
+    .quiz-pic{
+        margin: 0 auto;
+        width: 100%;    
+    }
+
+    .links a{
+        text-decoration: none;
+        font-weight: 600;
+        color: black;
+    }
+
+    .line{
+        display: inline;
+        color: black;
+        border: 1px solid;
+        height: auto;
+    }
+
+    .source{
+        margin-right: 4px;
+    }
+
+    .demo{
+        margin-left: 8px;
+    }
 }
 
-/* midsized screens */
+/* midsized and large screens */
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 710px){
+    /*Nav section*/
+    .mini-menu{
+        display: none;
+    }
+    .hidden{
+        display: inline;
+        height: 40px;
+    }
+
+    .main-nav{
+        margin-top: 0px;
+        display: inline;
+    }
+
+    li{
+        display: inline;
+    }
 }
-
-/* large screens */
-
-@media screen and (min-width: 800px){}

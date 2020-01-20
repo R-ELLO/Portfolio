@@ -6,6 +6,7 @@
         <title>Aeriel Waters De Garcia</title>
         <meta name="description" content="Portfolio website of Aeriel which includes a bio, projects, and contact information.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Julius+Sans+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="main.css">
     </head>
     <body>
@@ -17,12 +18,14 @@
                  <span class="bars"></span>
                 </button>
             </div>
-            <ul class="nav-list hidden">
-                <li><a class="downpg" href="#bio">Bio</a></li>
-                <li><a class="downpg" href="#project">Projects</a></li>
-                <li><a href="https://github.com/R-ELLO" target="_blank" rel="noreferrer noopener">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/aeriel-waters-9bba7184/" target="_blank" rel="noreferrer noopener">Linkedin</a></li>
-            </ul>
+            <div class="nav-list hidden">
+                <ul class="main-nav">
+                    <li><a class="downpg" href="#bio">Bio</a></li>
+                    <li><a class="downpg" href="#project">Projects</a></ li>
+                    <li><a href="https://github.com/R-ELLO" target="_blank" rel="noreferrer noopener">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/aeriel-waters-9bba7184/" target="_blank" rel="noreferrer noopener">Linkedin</a></li>
+                </ul>    
+            </div>
         </nav>
         <main class="main-container">
             <header class="head">
@@ -54,20 +57,21 @@
             </section>
             <section class="project-section" id="project">
                 <h2>Projects</h2>
-                <img>
+                <img class="quiz-pic" src="images/science-quiz.PNG" alt="Image of start page of science quiz">
                 <h3>Science Quiz</h3>
-                <div class="thumb-syms">
-                    <img class="thumbnail html-sym">
-                    <img class="thumbnail css-sym">
-                    <img class="thumbnail js-sym">
-                </div>
+                <ul class="thumb-syms">
+                    <li class="thumbnail html-sym">HTML |</li>
+                    <li class="thumbnail css-sym">CSS |</li>
+                    <li class="thumbnail js-sym">JS</li>
+                </ul>
                 <p>This online quiz will test a users scinece skills with questions from areas including; 
                     Biology, Chemistry, Genetics, and Geology. This dynamic quiz is a great way to beef 
                     up your science trivia skills! 
                 </p>
                 <div class="links">
-                    <a href="https://github.com/R-ELLO/quiz-app" target="_blank" rel="noreferrer noopener">Source Code</a>
-                    <a href="https://r-ello.github.io/quiz-app/" target="_blank" rel="noreferrer noopener">Demo</a>
+                    <a class="source" href="https://github.com/R-ELLO/quiz-app" target="_blank" rel="noreferrer noopener">Source Code</a>
+                    <div class="line"></div>
+                    <a class="demo" href="https://r-ello.github.io/quiz-app/" target="_blank" rel="noreferrer noopener">Demo</a>
                 </div>
             </section>
         </main>
