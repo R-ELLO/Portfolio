@@ -11,15 +11,16 @@
     <body>
         <nav class="navbar">
             <div class="mini-menu">
-                <button type="button" class="nav-toggle switch-x">
+                <button type="button" class="nav-toggle nav-drop">
                  <span class="bars"></span>
                  <span class="bars"></span>
                  <span class="bars"></span>
                 </button>
             </div>
             <ul class="nav-list hidden">
+                <li><a class="downpg" href="#bio">Bio</a></li>
+                <li><a class="downpg" href="#project">Projects</a></li>
                 <li><a href="https://github.com/R-ELLO" target="_blank" rel="noreferrer noopener">GitHub</a></li>
-                <li><a href="#">Projects</a></li>
                 <li><a href="https://www.linkedin.com/in/aeriel-waters-9bba7184/" target="_blank" rel="noreferrer noopener">Linkedin</a></li>
             </ul>
         </nav>
@@ -28,20 +29,46 @@
                 <h1 class="myname">Aeriel Waters De Garcia</h1>
                 <br>
                 <h2>I get excited about spreadsheets and dashboards. 
-                    Passionate about learning today's technology to improve tomorrow's experience.</h2>
+                    I'm passionate about learning today's technology to improve tomorrow's experience.</h2>
             </header>
-            <section class="bio-section">
-                Bio Section
-            </section>
-            <section class="strengths-section">
-                Strengths Section
+            <section class="bio-section" id="bio">
+                <h2>A little about me:</h2>
+                <p>I'm a Web Developer who also happens to be an obsessive bookworm and lover of maps. 
+                    I'm always looking for adventure especially if it includes learning something new, 
+                    experiencing fantastic worlds, or problem-solving. I love coding because it gives me
+                    the opportunity to create something that could help improve the lives of others and I 
+                    always learn something new in the process. While I do work well alone I also enjoy 
+                    collaborating with a team as I firmly believe that whether they are the inventive 
+                    dreamer or the voice of reason everyone contributes in a posative way to improve 
+                    any project. No one can enjoy beautiful balloons if there isn't anything to anchor 
+                    them against floating away.<br><br>When I'm not coding I'm going through books like candy,
+                    exercising, or out learning something new.
+                </p>
             </section>
             <section class="email-section">
-                Email contact Section
+                <h2>Want to collaborate or connect?</h2>
+                <p>I can be reached at: 
+                    <a class="email" href="mailto:aeriel.waters@gmail.com" target="_blank" rel="noreferrer noopener">
+                        aeriel.waters@gmail.com</a> 
+                </p>
             </section>
-            <!-- Use JS to bring to life link new page -->
-            <section class="project-section">
-                Project 1
+            <section class="project-section" id="project">
+                <h2>Projects</h2>
+                <img>
+                <h3>Science Quiz</h3>
+                <div class="thumb-syms">
+                    <img class="thumbnail html-sym">
+                    <img class="thumbnail css-sym">
+                    <img class="thumbnail js-sym">
+                </div>
+                <p>This online quiz will test a users scinece skills with questions from areas including; 
+                    Biology, Chemistry, Genetics, and Geology. This dynamic quiz is a great way to beef 
+                    up your science trivia skills! 
+                </p>
+                <div class="links">
+                    <a href="https://github.com/R-ELLO/quiz-app" target="_blank" rel="noreferrer noopener">Source Code</a>
+                    <a href="https://r-ello.github.io/quiz-app/" target="_blank" rel="noreferrer noopener">Demo</a>
+                </div>
             </section>
         </main>
         <script src="index.js"></script>
