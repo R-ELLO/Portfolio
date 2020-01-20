@@ -115,6 +115,11 @@ section h2{
     font-size: 25px;
 }
 
+.email:focus{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
 /*Projects section*/
 .thumb-syms{
     padding-left: 0px;
@@ -150,6 +155,24 @@ section h2{
     margin-left: 8px;
 }
 
+.demo:hover{
+    font-size: 25px;
+}
+
+.demo:focus{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.source:hover{
+    font-size: 25px;
+}
+
+.source:focus{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
 /* midsized and large screens */
 
 @media screen and (min-width: 710px){
@@ -180,6 +203,11 @@ section h2{
     }
 
     li a:hover{
+        background-image: linear-gradient(to bottom,  rgba(245, 241, 241, 0.7),
+    rgba(245, 241, 241, 0.7)), url(images/background-image.jpg);  
+    }
+
+    li a:focus{
         background-image: linear-gradient(to bottom,  rgba(245, 241, 241, 0.7),
     rgba(245, 241, 241, 0.7)), url(images/background-image.jpg);  
     }
