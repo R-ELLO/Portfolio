@@ -1,7 +1,11 @@
 'use strict'
 
-$('nav-toggle').on('click', function(event) {
-    event.preventDefault();
-    //$('ul').removeClass('.hidden');
-    $('.hidden').show();
-})
+function muhButton() {
+$('.nav-toggle').on('click', function(event) {
+        event.preventDefault();
+        //$('.nav-list').removeClass('.hidden');
+        $('.hidden').show();
+    });
+}
+
+$(muhButton());
