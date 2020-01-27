@@ -167,6 +167,17 @@ main{
     padding-top: 5%;
 }
 
+.myname {
+    padding-top: 3%;
+}
+
+.my-pic{
+    margin: 0 auto;
+    height: 30%;
+    width: 30%; 
+    padding-bottom: 2%;
+}
+
 /*Main sections*/
 p{
     font-weight: 600;
@@ -249,6 +260,33 @@ section h2{
     font-size: 25px;
 }
 
+/*Bottom of page scroll*/
+
+.scroll{
+    width: 150px;
+    background-color: rgba(32, 212, 143, 0.87);
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scroll a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+
+.scroll a:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.scroll a:focus{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
 /* midsized and large screens */
 
 @media screen and (min-width: 710px){
@@ -284,6 +322,12 @@ section h2{
         padding-bottom: 4%;
     }
 
+    .my-pic{
+        margin: 0 auto;
+        height: 20%;
+        width: 20%; 
+    }
+
     /*Section spacing*/
     section {
         padding-top: 12%;
@@ -291,6 +335,6 @@ section h2{
 
     /*Project section*/
     .project-section{
-        margin-bottom: 5%;
+        margin-bottom: 8%;
     }
 }
