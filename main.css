@@ -78,10 +78,10 @@ li a {
       rgba(245, 241, 241, 0.7)), url(images/background-image.jpg);
 }
 
-/*.menu-icon .navicon:focus {
+.menu .menu-icon .navicon:focus {
     background-image: linear-gradient(to bottom,  rgba(245, 241, 241, 0.7),
       rgba(245, 241, 241, 0.7)), url(images/background-image.jpg);
-}*/ 
+}
   
 /* menu */
   
@@ -199,12 +199,12 @@ section h2{
 
 .email:hover{
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .email:focus{
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /*Projects section*/
@@ -243,27 +243,29 @@ section h2{
 }
 
 .demo:hover{
-    font-size: 25px;
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 .demo:focus{
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .source:hover{
-    font-size: 25px;
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 .source:focus{
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /*Bottom of page scroll*/
 
 .scroll{
-    width: 150px;
+    width: 120px;
     background-color: rgba(32, 212, 143, 0.87);
     margin-bottom: 2%;
     margin-left: auto;
@@ -279,12 +281,12 @@ section h2{
 
 .scroll a:hover{
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .scroll a:focus{
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* midsized and large screens */
