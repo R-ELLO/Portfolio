@@ -33,6 +33,11 @@ header{
 li a {
     color: black;
 }
+
+.hider{
+    visibility: hidden;
+    position: absolute;
+  }
   
 /* header */
   
@@ -77,11 +82,6 @@ li a {
     background-image: linear-gradient(to bottom,  rgba(245, 241, 241, 0.7),
       rgba(245, 241, 241, 0.7)), url(images/background-image.jpg);
 }
-
-/*.menu-icon .navicon:focus {
-    background-image: linear-gradient(to bottom,  rgba(245, 241, 241, 0.7),
-      rgba(245, 241, 241, 0.7)), url(images/background-image.jpg);
-}*/ 
   
 /* menu */
   
